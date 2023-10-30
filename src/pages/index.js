@@ -1,10 +1,8 @@
-import Navigation from "@/Components/Navigation"
+import Navigation from "@/components/Navigation"
 import ShoppingCart from "@/Actions/ShoppingCart"
 import Head from "next/head"
-import Footer from "@/pages/Footer"
-import HtmlContent from "@/Components/HtmlContent"
-
-
+import HtmlContent from "@/components/HtmlContent"
+import Footer from "@/components/Footer"
 
 const index = () => {
   return (
@@ -12,26 +10,28 @@ const index = () => {
     
     
     <Head>
-   <HtmlContent/>
    
-    
    <title> Comidas Caceras</title>
     <link rel="stylesheet" href="../styles/skeleton.css" />
     <link rel="stylesheet" href="../styles/normalize.css" />
     <link rel="stylesheet" href="../styles/styles.css" />
     
+    <HtmlContent/> 
 
     </Head>
     
     <main>
-      <header>
+     
+     
+     <header>
         <Navigation />
       <ShoppingCart/>
+      
       </header>
       
-    <Footer/>   
+     
     </main>
-    
+    <Footer/>  
     
     </>
   )

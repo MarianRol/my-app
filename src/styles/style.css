@@ -34,7 +34,7 @@ ul{
 }
 
 .hero{
-    background-image: url(../img/hero.jpg);
+    background-image: url(../images/hero.jpg);
     height:551px;
 }
 .encabezado{
@@ -90,7 +90,7 @@ submenu:hover #carrito{
     display:block;
     text-indent: -9999px;
     width:50px;
-    background-image: url(../img/lupa.png);
+    background-image: url(../images/lupa.png);
     background-position:right center;
     background-repeat:no-repeat;
     border:none;

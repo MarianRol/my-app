@@ -4,6 +4,7 @@
   margin: 0;
 }
 
+
  /* shooping cart */
 .box {
   padding: 1rem;
@@ -20,7 +21,7 @@
   background-color: blueviolet;
   color: white;
 }
-.cart- item {
+.cart-item {
   background-color: crimson;
   padding: 1rem;
   color: white;

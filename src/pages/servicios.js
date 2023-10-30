@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Navigation from "@/Components/Navigation"
+import Navigation from "@/components/Navigation"
 
 
 const Servicios = () => {
@@ -9,6 +9,11 @@ const Servicios = () => {
 
 <Head>
    <title> Comidas Caceras</title> 
+   
+          <link rel="stylesheet" href="./styles/normalize.css" />
+          <link rel="stylesheet" href="./styles/skeleton.css" />
+          <link rel="stylesheet" href="./styles/style.css" />
+      
 </Head>
   
   <main>
