@@ -87,6 +87,7 @@ template {
  */
 
 a {
+  display: flex;
   background-color: transparent;
 }
 
@@ -182,6 +183,7 @@ sub {
  */
 
 img {
+  
   border: 0;
 }
 

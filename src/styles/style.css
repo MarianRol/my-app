@@ -74,12 +74,12 @@ submenu:hover #carrito{
 }
 .contenido-hero form{
     position: relative;
-    margin-botton: 0;
+    margin: 0;
 
 }
 .contenido-hero form #buscador{
     height:50px;
-    margin-botton: 0,
+    margin: 0,
 }
 .contenido-hero form .submit-buscador {
     position:absolute;
@@ -96,4 +96,71 @@ submenu:hover #carrito{
     border:none;
 }
 
+.four-columns {
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 55px;
+    background-image: url(../images/logo.png);
+    background-position:left top;
+    background-repeat:no-repeat;
+    border:none;
+}
 
+.submenu {
+    display:flex;
+    align-items: flex-start;
+    margin-top: -120px;
+    background-image: url(../images/cart.png);
+    background-position:left top;
+    background-repeat:no-repeat;
+    border:none;
+}
+
+.vaciar {
+    padding-left: 50px;
+}
+.nombre-Tabla {
+    color: aliceblue;
+  
+  }
+
+.opcionDeCompra {
+    color: #fbaf32;
+}
+
+.imagenDePlatillos {
+   
+    height: 5rem;
+    width: 6rem;
+}
+
+
+
+.button u-full-width {
+   
+    align-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7rem;
+}
+ 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+    align-items: center;
+    
+}
+
+.enlace {
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}

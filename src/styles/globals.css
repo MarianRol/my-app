@@ -26,3 +26,16 @@
   padding: 1rem;
   color: white;
 }
+
+.imagenDePlatillos {
+  
+  height: 5rem;
+  width: 6rem;
+}
+
+
+
+.button u-full-width {
+ 
+  align-content: center;
+}

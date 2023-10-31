@@ -11,27 +11,19 @@ const index = () => {
     
     <Head>
    
-   <title> Comidas Caceras</title>
-    <link rel="stylesheet" href="../styles/skeleton.css" />
-    <link rel="stylesheet" href="../styles/normalize.css" />
-    <link rel="stylesheet" href="../styles/styles.css" />
-    
+   <title> Comidas Caseras</title>
+   
     <HtmlContent/> 
 
     </Head>
     
     <main>
      
-     
-     <header>
-        <Navigation />
-      <ShoppingCart/>
-      
-      </header>
-      
+     <ShoppingCart/>
+     <Footer/>
      
     </main>
-    <Footer/>  
+      
     
     </>
   )

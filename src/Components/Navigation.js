@@ -5,10 +5,11 @@ const Navigation = () => {
   return (
     <>
 
-    <nav>
-        <Link href="/">inicio</Link>
-        <Link href="/servicios">Servicios</Link>
-        <Link href="/contactos">Contactos</Link>
+    <nav className="navbar">
+
+        <Link className="link" href="/">Inicio</Link>
+        <Link className="link" href="/servicios">Servicios</Link>
+        <Link className="link" href="/contactos">Contactos</Link>
     </nav>
 
 
