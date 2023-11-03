@@ -46,7 +46,7 @@ const HtmlContent = () => (
                               <td>Hamburguesa Helado</td>
                               <td>$500</td>
                               <td>
-                                <a href="a" className="borrar-platillo"></a>
+                                <a href="#" className="borrar-platillo"></a>
                               </td>
                             </tr>
                             <tr>
