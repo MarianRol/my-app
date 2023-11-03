@@ -95,5 +95,82 @@ submenu:hover #carrito{
     background-repeat:no-repeat;
     border:none;
 }
+.barra{
+    padding: 20px 0;
+    background: #fbaf32;
+    background:-webkit-linear-gradient(left, #b95a00 0%, #ad5400 100% );
+}
+.icono{
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+} 
+@media  (min-width: 750px){
+    .icono{
+        margin-bottom: 0;
+    }
+    
+}
+.icono1{
+    background-image: url(../images/icono1.png);
+
+
+}
+icono2{
+    background-image: url(../images/icono2.png);
+    
+
+}
+icono3{
+    background-image: url(../images/icono3.png);
+    
+
+}
+
+#lista-platillos .row{
+    margin-bottom: 20px;
+}
+.agregar-carrito{
+    margin: 10px 0;
+}
+.card{
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #1d2124;
+
+}
+@media (min-width:550px){
+    .card{
+        text-align: left;
+    }
+}
+.info-card p,
+.card h4{
+    margin-bottom: 5px;
+}
+.infor-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top:10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+.footer{
+    margin-top: 40px;
+    padding: 40px;
+    background: #1d2124;
+}
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+
 
 
