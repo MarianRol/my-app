@@ -42,7 +42,7 @@ const HtmlContent = () => (
                           <tbody>
                             <tr>
                               <td>
-                                <img className='imagenDePlatillos' src={require("../images/platillo1.jpg").default} />
+                                <img className='imagenDePlatillos' src="./images/platillo1.jpg"/>
                               </td>
                               <td className='opcionDeCompra'>Hamburguesa Helado</td>
                               <td className='opcionDeCompra'>$500</td>
@@ -52,7 +52,7 @@ const HtmlContent = () => (
                             </tr>
                             <tr>
                               <td>
-                                <img className='imagenDePlatillos' src="../images/platillo3.jpg"  />
+                                <img className='imagenDePlatillos' src="./images/platillo3.jpg"  />
                               </td>
                               <td className='opcionDeCompra'>Hamburguesa con gaseosa</td>
                               <td className='opcionDeCompra'>$1500</td>

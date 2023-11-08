@@ -1,13 +1,16 @@
-import Navigation from "@/components/Navigation"
+
 import ShoppingCart from "@/Actions/ShoppingCart"
 import Head from "next/head"
 import HtmlContent from "@/components/HtmlContent"
 import Footer from "@/components/Footer"
+import CarouselBurguer from "@/components/CarouselBurguer"
 
-const index = () => {
+import Section from "@/components/Section"
+
+const Index = () => {
+  
   return (
     <>
-    
     
     <Head>
    
@@ -18,15 +21,16 @@ const index = () => {
     </Head>
     
     <main>
-     
+  
+     <Section/>
+     <CarouselBurguer/>
      <ShoppingCart/>
      <Footer/>
      
     </main>
       
-    
     </>
   )
 }
 
-export default index
+export default Index
