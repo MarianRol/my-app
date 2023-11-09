@@ -279,7 +279,7 @@ icono3{
   }
 
   .estiloBoton {
-    
+        
         background-color: rgb(255, 153, 0);
         color: black;
         border: none;
@@ -301,12 +301,13 @@ icono3{
 
   .estiloCards {
     width: 350px;
-    height: 275px;
+    height: 300px;
     border: 2px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
   }
 
   .estiloImagen {
@@ -320,4 +321,9 @@ icono3{
     flex-wrap: wrap;
     justify-content: center;
     
+  }
+
+  .estiloTexto {
+    margin: auto;
+    padding: 0 10px;
   }

@@ -6,39 +6,39 @@ const CardContainer = () => {
     const platillos = [
         {
           id: 1,
-          img: "./images/cabracompleta.jpg",
+          img: "https://theburgermaker.com/wp-content/uploads/2022/08/gabraloca.png ",
           title: "Cabra Completa",
           text: "Carne XL, cheddar, bacon, y salsa Cabras Locas.",
         },
         {
           id: 2,
-          img: "./images/cabradoble.jpg",
+          img: "https://prior-client-images.s3.eu-west-2.amazonaws.com/burgermaker/9222f8c428ad5088a9560b8b18099b05.png",
           title: "Cabra Doble",
-          text: "Doble Carne, lechuga, tomate, bacon, ketchup, y salsa golf.",
+          text: "Doble Carne, lechuga, tomate, bacon, guacamole, y salsa golf.",
         },   
         {
           id: 3,
-          img: "./images/cabrafondo.jpg",
+          img: " https://prior-client-images.s3.eu-west-2.amazonaws.com/burgermaker/1e5ae71171f3065a839be04ae371619c.png",
           title: "Cabra Fondo",
           text: "Carne grillada, huevo, jamon, queso, pepino y salsa criolla.",
         }, 
         {
           id: 4,
-          img: "./images/cabrasimple.jpg",
+          img: "https://prior-client-images.s3.eu-west-2.amazonaws.com/burgermaker/42b64213c5083d3424a4b620a2e22165.png",
           title: "Cabra Simple",
           text: "Carne, lechuga, tomate, jamon y queso.",
         },
         {
           id: 5,
-          img: "./images/cabratriple.jpg",
+          img: "https://prior-client-images.s3.eu-west-2.amazonaws.com/burgermaker/0a78f2d4c1256d115b92ee37b1657ec0.png",
           title: "Cabra Triple",
-          text: "Triple Carne XL, triple cheddar, cebolla caramelizada, y salsa Cabras Locas.",
+          text: "Triple Carne XL, triple cheddar, cebolla caramelizada, huevo y salsa Cabras Locas.",
         },
         {
           id: 6,
-          img: "./images/platillo1.jpg",
+          img: "https://prior-client-images.s3.eu-west-2.amazonaws.com/burgermaker/a2035e864438e81e079002d8782c567b.png",
           title: "Cabra Bomba",
-          text: "Cuadruple Carne XL, cheddar, bacon, y salsa Cabras Locas.",
+          text: "Carne XL, cheddar, bacon, cebolla, tomate y salsa Cabras Locas.",
         },
       ];
 

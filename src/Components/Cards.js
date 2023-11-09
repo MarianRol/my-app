@@ -13,7 +13,7 @@ const Cards = ({data}) => {
                     {title}
                 </h5>
             </figcaption>
-            <p>
+            <p className="estiloTexto">
             {text}
             </p>
 
