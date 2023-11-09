@@ -42,7 +42,7 @@ const HtmlContent = () => (
                           <tbody>
                             <tr>
                               <td>
-                                <img className='imagenDePlatillos' src="./images/platillo1.jpg"/>
+                                <img className='imagenDePlatillos' src="https://www.cucinare.tv/wp-content/uploads/2020/11/Disen%CC%83o-sin-ti%CC%81tulo-2020-11-09T171840.167.jpg"/>
                               </td>
                               <td className='opcionDeCompra'>Hamburguesa Helado</td>
                               <td className='opcionDeCompra'>$500</td>
@@ -52,7 +52,7 @@ const HtmlContent = () => (
                             </tr>
                             <tr>
                               <td>
-                                <img className='imagenDePlatillos' src="./images/platillo3.jpg"  />
+                                <img className='imagenDePlatillos' src="https://panel.entretiendas.net/uploads/empresa_2/productos/2.1604102567.png"  />
                               </td>
                               <td className='opcionDeCompra'>Hamburguesa con gaseosa</td>
                               <td className='opcionDeCompra'>$1500</td>
