@@ -198,16 +198,6 @@ icono3{
   font-weight: 700;
   font-size: 22px;
 }
-.footer{
-  margin-top: 40px;
-  padding: 40px;
-  background: #1d2124;
-}
-.footer .menu a {
-  display: block;
-  margin-bottom: 10px;
-  text-decoration: none;
-}
 
 
 
@@ -267,12 +257,7 @@ icono3{
   align-items: center;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 7rem;
-}
+
 
 .menu {
   display: flex;
@@ -286,9 +271,7 @@ icono3{
   text-decoration: none;
 }
 
-.link {
-  text-decoration: none;
-}
+
 
 .imagenDePlatillos {
 
@@ -296,6 +279,27 @@ icono3{
   width: 6rem;
 }
 
+/*******Navigation*********/
+.navbar {
+  display: flex;
+  height: 7rem;
+  background-color: black;
+}
+
+.link1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 150px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  color: #d6853a;
+
+}
+
+.link1:hover {
+  color: wheat;
+}
 
 /*******Cards Container******/
 .contenedor{
@@ -410,6 +414,7 @@ p:hover {
   color: #d6853a;
   font-weight: bold;
   font-size: large;
+  text-decoration: none;
 }
 
 .link:hover {

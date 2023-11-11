@@ -7,9 +7,9 @@ const Navigation = () => {
 
     <nav className="navbar">
 
-        <Link className="link" href="/">Inicio</Link>
-        <Link className="link" href="/servicios">Servicios</Link>
-        <Link className="link" href="/contactos">Contactos</Link>
+        <Link className="link1" href="/">Inicio</Link>
+        <Link className="link1" href="/servicios">Servicios</Link>
+        <Link className="link1" href="/contactos">Contactos</Link>
     </nav>
 
 
