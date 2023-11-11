@@ -229,13 +229,7 @@ icono3{
   width: 100%;
 }
 
-.footer1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 18rem;
-  padding: 15rem;
-}
+
 
 .submenu {
   display:flex;
@@ -400,4 +394,24 @@ p:hover {
   font-weight: bold;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+}
+
+/******FOOTER*******/
+.footer1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8rem;
+  padding: 3rem;
+  background-color: black;
+}
+
+.link {
+  color: #d6853a;
+  font-weight: bold;
+  font-size: large;
+}
+
+.link:hover {
+  color: wheat;
 }
