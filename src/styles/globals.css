@@ -394,3 +394,10 @@ p:hover {
   display: flex;
   width: 100%;
 }
+
+.estiloCaption {
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
