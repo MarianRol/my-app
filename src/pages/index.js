@@ -6,6 +6,7 @@ import Footer from "@/components/Footer"
 import CarouselBurguer from "@/components/CarouselBurguer"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Section from "@/components/Section"
+import Navigation from "@/components/Navigation"
 
 const Index = () => {
   
@@ -14,14 +15,12 @@ const Index = () => {
     
     <Head>
    
-   <title> Comidas Caseras</title>
-   
-    <HtmlContent/> 
+       <title> Comidas Caseras</title>
 
     </Head>
-    
+    <Navigation/> 
     <main>
-  
+   <HtmlContent/> 
      <Section/>
      <CarouselBurguer/>
      <ShoppingCart/>

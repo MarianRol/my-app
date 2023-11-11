@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Navigation from './Navigation';
+
 
 
 const HtmlContent = () => (
@@ -11,21 +11,21 @@ const HtmlContent = () => (
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>cabraslocas</title>
-          <link rel="stylesheet" href="./styles/normalize.css" />
-          <link rel="stylesheet" href="./styles/skeleton.css" />
-          <link rel="stylesheet" href="./styles/style.css" />
+          <link rel="stylesheet" href="./styles/global.css" />
+          <link rel="stylesheet" href="./styles/Home.module.css" />
+         
         </Head>
-        <Navigation/>
+       
         <body>
           <header className="header">
             <div className="container">
               <div className="row">
                 <div className="four-columns">
-                  <h1>
+                  <h1 className='fourColumns'>
                     Cabras<br />Locas
                   </h1>
                 </div>
-                <div className="two columns u-pull-right">
+                <div className="carritoDesplegable">
                   <ul>
                     <li className="submenu">
                       
@@ -62,7 +62,7 @@ const HtmlContent = () => (
                             </tr>
                           </tbody>
                         </table>
-                        <a href="#" className="button u-full-width">
+                        <a href="#" className="estiloBotonVaciar">
                           Vaciar Carrito
                         </a>
                       </div>
