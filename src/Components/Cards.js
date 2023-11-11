@@ -9,13 +9,13 @@ const Cards = ({data}) => {
         <figure className="estiloCards">
             <img className="estiloImagen" src={img} alt={title} />
             <figcaption>
-                <h5>
+                <h4 className="estiloH4">
                     {title}
-                </h5>
+                </h4>
             </figcaption>
-            <p className="estiloTexto">
+            <h6 className="estiloTexto">
             {text}
-            </p>
+            </h6>
 
            <Button/>
 

@@ -1,36 +1,38 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel';
+import { Carousel } from 'react-bootstrap';
 
 
 const CarouselBurguer = () => {
   return (
-   <div>
+    <>
+    
+   <div className='contenedorCarousel'>
 
         <Carousel>
-    <Carousel.Item>
+    <Carousel.Item className='estiloCarouselCont'>
       
          <img
         className="imagesBurguers"
-        src="https://theburgermaker.com/wp-content/uploads/2022/08/gabraloca.png"
-        alt="Cabra Completa"
+        src="https://prior-client-images.s3.eu-west-2.amazonaws.com/burgermaker/a2035e864438e81e079002d8782c567b.png"
+        alt="Cabra Bomba"
       />
       
-      <Carousel.Caption>
-        <h5>Hambuguesa Doble Extra Chedar</h5>
-        <p>Combo: papas fritas y gaseosa</p>
-      </Carousel.Caption>
+    <Carousel.Caption>
+        <h5>Cabra Bomba</h5>
+        <p>Combo: papas fritas, guacamole y gaseosa</p>
+      </Carousel.Caption>      
     
     </Carousel.Item>
     <Carousel.Item>
    
       <img
         className="imagesBurguers"
-        src="https://prior-client-images.s3.eu-west-2.amazonaws.com/burgermaker/9222f8c428ad5088a9560b8b18099b05.png"
+        src="https://prior-client-images.s3.eu-west-2.amazonaws.com/burgermaker/e3c27f9f78a74c0aa95a85979516ed81.png"
         alt="Cabra Doble"
       />
       <Carousel.Caption>
-        <h5>Cabra Doble</h5>
-        <p>Combo: papas rusticas y gaseosa</p>
+        <h5>Hambuguesa Doble Extra Chedar</h5>
+        <p>Combo: papas fritas y gaseosa</p>
       </Carousel.Caption>
    
     </Carousel.Item>
@@ -80,7 +82,9 @@ const CarouselBurguer = () => {
 
 
   </Carousel>
-   </div> 
+   </div>     
+    </>
+
 
   
   )
